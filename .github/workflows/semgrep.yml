@@ -21,4 +21,4 @@ jobs:
       image: returntocorp/semgrep
     steps:
     - uses: actions/checkout@v4
-    - run: semgrep ci --verbose --max-log-list-entries=10000 --code --no-git-ignore
+    - run: semgrep ci --verbose --max-log-list-entries=100000 --code --no-git-ignore
